@@ -1,0 +1,56 @@
+C++
+Description:
+C++ is an intermediate-level language with object-oriented programming features (similar to C#).
+Originally designed to enhance the C language (++ means an increment of 1), it powers major 
+software like Firefox, Winamp and Adobe programs. It's used to develop systems software, 
+application software, high-performance server and client applications and video games
+Comparison:
+C# while defined as a completely different language, inherits the C++ syntax and code structure.
+In contrast, it is used specifically with the purpose to be used with the .NET Platform
+This empowers the language to be used for variety of web applications
+
+Java
+Description:
+Java is an object-oriented language similar to C++, but simplified to eliminate language features
+ that cause common programming errors. Java source code files (files with a .java extension)
+ are compiled into a format called bytecode (files with a .class extension), which can then be 
+executed by a Java interpreter.  Java is a general purpose programming language with a 
+number of features that make the language well suited for use on the World Wide Web
+Comparison:
+Both are type-safe and pure object-oriented languages that inherit a lot of their concept from C++
+and are powerful tools for programming a large array of applications and web-based applications.
+Some of the key differences feature virtual-by-default methods in Java, the .NET support for C#,
+the handling of primitive numeric types and checked exceptions in both languages and others.
+
+JavaScript
+Desription:
+JavaScript is a client and server-side scripting language developed by Netscape that derives much
+ of its syntax from C. It can be used across multiple web browsers and is considered essential for
+ developing interactive or animated web functions. It is also used in game development and writing 
+desktop applications. JavaScript interpreters are embedded in Google's Chrome extensions, Apple's 
+Safari extensions, Adobe Acrobat and Reader, and Adobe's Creative Suite.
+Comparison:
+JavaScript is primarity used in web-based technologies such as browsers while C# developing 
+software components suitable for deployment in distributed environments. Other differences lie in 
+their specifics: JS is prototype-based while C# is class-based and of strong typing.
+
+Python
+Desription:
+ Python is a high-level, server-side scripting language for websites and mobile apps. It's considered a
+ fairly easy language for beginners due to its readability and compact syntax, meaning developers 
+can use fewer lines of code to express a concept than they would in other languages. It powers the 
+web apps for Instagram, Pinterest and Rdio through its associated web framework, Django, and is 
+used by Google, Yahoo! and NASA
+Comparison:
+Both languages have object-oriented, procedural and functional elements. C# tends to wield better 
+results when coding windows-based applications, while Python places its focus on mobile and web apps. 
+Python is also a runtime instead of a static-typed language.
+
+F#
+Desription:
+F# is a strongly typed, multi-paradigm programming language encompassing functional, imperative
+ and object-oriented programming techniques. F# is most often used as a cross-platform CLI language
+but can also be used to generate JavaScript[3] and GPU[4] code
+Comparison:
+The greatest difference between F# and C# and the defining trait of the former is that it features a functional,
+asynchronized programming which often offers a more flexible and "cleaner" syntax.

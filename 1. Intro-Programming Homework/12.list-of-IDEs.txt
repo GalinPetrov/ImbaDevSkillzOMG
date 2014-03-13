@@ -1,0 +1,37 @@
+Eclipse
+The interface is a lot cleaner and concise than Visual Studio and the languages that are possible to use extend past the
+.Net Framework. Besides being the number on way to develop Android applications via the Android SDK, it is fully 
+extensible to use languages such as Ruby, C, C++ and many many more. Among its most destinctive and defining traits 
+are: language accessability, its free-to-use status, its integrated code compiler and its steep learning curve
+
+Netbeans
+Netbeans is the number one alternative to Eclipse. This program is extensible and free, and it compiles code which is
+ a bonus. When installing Netbeans it comes with a Java server called GlassFish that you could deploy on your 
+computer for your testing environment. This server is the second biggest server for Java next to WebSphere (which 
+is a whole different ball game). It is also free, extensible, includes a code compiler but on the cos side can prove to be 
+bloated 
+
+Kate
+Kate is a text editor. Not to be looked down upon as it does a lot more than a regular text edit can do and that is what 
+makes this an indispensable product. It runs under Linux and features a destinct code folding. On the downside it does 
+not compile code and suffers from an KDE overhead (250mb. just to start the application)
+
+Gedit
+gedit is the official editor of the gnome desktop and comes installed once the system is setup. Very useful for the user
+that is casually editing code and not undertaking major projects. This would be a good companion to Netbeans or Eclipse.
+It too uses Linux and comes readilly installed on gnome systems. It features code highlighting for an "on-the-go" 
+debugging. It also allows multiple source packages open at once to jump back and forth between if need be. It major con 
+is the inability to compile code
+
+Vim
+Vim (an acronym for Vi IMproved) is a text editor written by Bram Moolenaar and first released publicly in 1991. Based 
+on the vi editor common to Unix-like systems, Vim is designed for use both from a command line interface and as a 
+standalone application in a graphical user interface. Vim is free and open source software and is released under a
+ license that includes some charityware clauses, encouraging users who enjoy the software to consider donating to 
+children in Uganda. The license is compatible with the GNU General Public License.
+
+Notepad++
+This is a versatile and powerful source code editor that also serves as an excellent replacement for the default Notepad
+ text editor in Windows. Notepad++ is lightweight, free and is positioned primarily as a source code editor. It upgrades 
+over the built-indefault "notepad" by adding features traditional for the "major" software in the field such as line 
+numbering, zooming capabilities, detection of modigied files, syntax highlighting and others.
