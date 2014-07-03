@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-Time of this report: 7/1/2014, 19:04:45
+Time of this report: 7/3/2014, 23:37:15
        Machine name: EA
    Operating System: Windows 7 Professional 64-bit (6.1, Build 7600) (7600.win7_gdr.130318-1532)
            Language: English (Regional Setting: English)
@@ -11,7 +11,7 @@ System Manufacturer: To Be Filled By O.E.M.
           Processor: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz (4 CPUs), ~3.1GHz
              Memory: 8192MB RAM
 Available OS Memory: 8112MB RAM
-          Page File: 2611MB used, 13612MB available
+          Page File: 2626MB used, 13597MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -25,6 +25,7 @@ DxDiag Notes
 ------------
       Display Tab 1: No problems found.
         Sound Tab 1: No problems found.
+        Sound Tab 2: No problems found.
           Input Tab: No problems found.
 
 --------------------
@@ -56,20 +57,20 @@ Display Devices
         Native Mode: 1920 x 1080(p) (60.000Hz)
         Output Type: HD15
         Driver Name: nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvd3dum,nvwgf2um,nvwgf2um
-Driver File Version: 9.18.0013.3182 (English)
-     Driver Version: 9.18.13.3182
+Driver File Version: 9.18.0013.3788 (English)
+     Driver Version: 9.18.13.3788
         DDI Version: 10.1
        Driver Model: WDDM 1.1
   Driver Attributes: Final Retail
-   Driver Date/Size: 11/14/2013 14:56:36, 18208624 bytes
+   Driver Date/Size: 5/20/2014 05:44:03, 17480432 bytes
         WHQL Logo'd: n/a
     WHQL Date Stamp: n/a
-  Device Identifier: {D7B71E3E-5288-11CF-B77A-C5311CC2C435}
+  Device Identifier: {D7B71E3E-5288-11CF-1578-C5311CC2C435}
           Vendor ID: 0x10DE
           Device ID: 0x11C8
           SubSys ID: 0x11C81569
         Revision ID: 0x00A1
- Driver Strong Name: oem14.inf:NVIDIA_SetA_Devices.NTamd64.6.1:Section090:9.18.13.3182:pci\ven_10de&dev_11c8
+ Driver Strong Name: oem87.inf:NVIDIA_SetA_Devices.NTamd64.6.1:Section093:9.18.13.3788:pci\ven_10de&dev_11c8
      Rank Of Driver: 00E02001
         Video Accel: ModeMPEG2_A ModeMPEG2_C ModeVC1_C ModeWMV9_C 
    Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
@@ -129,10 +130,35 @@ Sound Devices
              Product ID: 100
                    Type: WDM
             Driver Name: RTKVHD64.sys
-         Driver Version: 6.00.0001.6873 (English)
+         Driver Version: 6.00.0001.7246 (English)
       Driver Attributes: Final Retail
             WHQL Logo'd: n/a
-          Date and Size: 3/29/2013 16:42:42, 3379272 bytes
+          Date and Size: 5/14/2014 18:37:38, 3962840 bytes
+            Other Files: 
+        Driver Provider: Realtek Semiconductor Corp.
+         HW Accel Level: Basic
+              Cap Flags: 0x0
+    Min/Max Sample Rate: 0, 0
+Static/Strm HW Mix Bufs: 0, 0
+ Static/Strm HW 3D Bufs: 0, 0
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: No, No
+   I3DL2(tm) Listen/Src: No, No
+Sensaura(tm) ZoomFX(tm): No
+
+            Description: Realtek Digital Output (Realtek High Definition Audio)
+ Default Sound Playback: No
+ Default Voice Playback: No
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_18498892&REV_1003
+        Manufacturer ID: 1
+             Product ID: 100
+                   Type: WDM
+            Driver Name: RTKVHD64.sys
+         Driver Version: 6.00.0001.7246 (English)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: n/a
+          Date and Size: 5/14/2014 18:37:38, 3962840 bytes
             Other Files: 
         Driver Provider: Realtek Semiconductor Corp.
          HW Accel Level: Basic
@@ -149,13 +175,13 @@ Sensaura(tm) ZoomFX(tm): No
 ---------------------
 Sound Capture Devices
 ---------------------
-            Description: FrontMic (Realtek High Definition Audio)
+            Description: Microphone (Realtek High Definition Audio)
   Default Sound Capture: Yes
   Default Voice Capture: Yes
             Driver Name: RTKVHD64.sys
-         Driver Version: 6.00.0001.6873 (English)
+         Driver Version: 6.00.0001.7246 (English)
       Driver Attributes: Final Retail
-          Date and Size: 3/29/2013 16:42:42, 3379272 bytes
+          Date and Size: 5/14/2014 18:37:38, 3962840 bytes
               Cap Flags: 0x0
            Format Flags: 0x0
 
@@ -251,13 +277,13 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 42.0 GB
+ Free Space: 39.0 GB
 Total Space: 103.8 GB
 File System: NTFS
       Model: ATA TOSHIBA DT01ACA1 SCSI Disk Device
 
       Drive: D:
- Free Space: 531.5 GB
+ Free Space: 532.3 GB
 Total Space: 850.0 GB
 File System: NTFS
       Model: ATA TOSHIBA DT01ACA1 SCSI Disk Device
@@ -283,59 +309,59 @@ Device ID: PCI\VEN_8086&DEV_8C16&SUBSYS_8C161849&REV_D4\3&11583659&0&E3
 
      Name: NVIDIA GeForce GTX 650 
 Device ID: PCI\VEN_10DE&DEV_11C8&SUBSYS_11C81569&REV_A1\4&63638AD&0&0008
-   Driver: C:\Program Files\NVIDIA Corporation\Drs\dbInstaller.exe, 9.18.0013.3182 (English), 11/14/2013 14:56:25, 250144 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\Drs\nvdrsdb.bin, 11/14/2013 14:56:38, 1156160 bytes
-   Driver: C:\Windows\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_neutral_9cb2a9b278d4a5ca\NvCplSetupInt.exe, 1.00.0001.0000 (English), 11/14/2013 14:56:33, 74338088 bytes
-   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\Nvd3d9wrap.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:35, 324128 bytes
-   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\detoured.dll, 11/14/2013 14:56:36, 13088 bytes
-   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvdxgiwrap.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:38, 226296 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\Nvd3d9wrapx.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:35, 366400 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\detoured.dll, 11/14/2013 14:56:36, 13088 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvdxgiwrapx.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:38, 265960 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\Drs\dbInstaller.exe, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 440152 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\Drs\nvdrsdb.bin, 5/20/2014 05:44:03, 1183672 bytes
+   Driver: C:\Windows\System32\DriverStore\FileRepository\nv_disp.inf_amd64_neutral_334ed45e48dadbd5\NvCplSetupEng.exe, 1.00.0001.0000 (English), 5/20/2014 05:44:03, 33528888 bytes
+   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\Nvd3d9wrap.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 164496 bytes
+   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\detoured.dll, 5/20/2014 05:44:03, 12120 bytes
+   Driver: C:\Program Files (x86)\NVIDIA Corporation\coprocmanager\nvdxgiwrap.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 113008 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\Nvd3d9wrapx.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 191264 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\detoured.dll, 5/20/2014 05:44:03, 14280 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\coprocmanager\nvdxgiwrapx.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 130488 bytes
    Driver: C:\Program Files\NVIDIA Corporation\license.txt, 11/14/2013 14:56:25, 21898 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\MCU.exe, 1.01.5045.34391 (English), 11/14/2013 14:56:25, 842016 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvdebugdump.exe, 6.14.0013.3182 (English), 11/14/2013 14:56:36, 217888 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.1.pdf, 11/14/2013 14:56:38, 48843 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe, 8.17.0013.3182 (English), 11/14/2013 14:56:38, 326944 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll, 8.17.0013.3182 (English), 11/14/2013 14:56:40, 539424 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL.dll, 1.00.0000.0000 (English), 11/14/2013 14:56:47, 53024 bytes
-   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL64.dll, 1.00.0000.0000 (English), 11/14/2013 14:56:47, 61216 bytes
-   Driver: C:\Windows\system32\DRIVERS\nvlddmkm.sys, 9.18.0013.3182 (English), 11/14/2013 14:56:39, 12613408 bytes
-   Driver: C:\Windows\system32\NvFBC64.dll, 6.14.0013.3182 (English), 11/14/2013 14:56:38, 707360 bytes
-   Driver: C:\Windows\system32\NvIFR64.dll, 6.14.0013.3182 (English), 11/14/2013 14:56:38, 657184 bytes
-   Driver: C:\Windows\system32\NvIFROpenGL.dll, 11/14/2013 14:56:38, 357152 bytes
-   Driver: C:\Windows\system32\nvEncodeAPI64.dll, 6.14.0013.3182 (English), 11/14/2013 14:56:38, 479520 bytes
-   Driver: C:\Windows\system32\nvapi64.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:25, 3069608 bytes
-   Driver: C:\Windows\system32\nvcompiler.dll, 8.17.0013.3182 (English), 11/14/2013 14:56:26, 25257248 bytes
-   Driver: C:\Windows\system32\nvcuda.dll, 8.17.0013.3182 (English), 11/14/2013 14:56:34, 11600432 bytes
-   Driver: C:\Windows\system32\nvcuvenc.dll, 8.17.0013.3182 (English), 11/14/2013 14:56:34, 3125024 bytes
-   Driver: C:\Windows\system32\nvcuvid.dll, 8.17.0013.3182 (English), 11/14/2013 14:56:35, 3132704 bytes
-   Driver: C:\Windows\system32\nvd3dumx.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:36, 18208624 bytes
-   Driver: C:\Windows\system32\nvinfo.pb, 11/14/2013 14:56:38, 23754 bytes
-   Driver: C:\Windows\system32\nvinitx.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:38, 168616 bytes
-   Driver: C:\Windows\system32\nvoglshim64.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:41, 317472 bytes
-   Driver: C:\Windows\system32\nvoglv64.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:43, 30361888 bytes
-   Driver: C:\Windows\system32\nvopencl.dll, 8.17.0013.3182 (English), 11/14/2013 14:56:44, 11514624 bytes
-   Driver: C:\Windows\system32\nvumdshimx.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:45, 1436528 bytes
-   Driver: C:\Windows\system32\nvwgf2umx.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:47, 18293608 bytes
-   Driver: C:\Windows\SysWow64\NvFBC.dll, 6.14.0013.3182 (English), 11/14/2013 14:56:38, 609568 bytes
-   Driver: C:\Windows\SysWow64\NvIFR.dll, 6.14.0013.3182 (English), 11/14/2013 14:56:38, 562464 bytes
-   Driver: C:\Windows\SysWow64\NvIFROpenGL.dll, 11/14/2013 14:56:38, 314656 bytes
-   Driver: C:\Windows\SysWow64\nvEncodeAPI.dll, 6.14.0013.3182 (English), 11/14/2013 14:56:38, 405280 bytes
-   Driver: C:\Windows\SysWow64\nvapi.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:25, 2697248 bytes
-   Driver: C:\Windows\SysWow64\nvcompiler.dll, 8.17.0013.3182 (English), 11/14/2013 14:56:26, 17560352 bytes
-   Driver: C:\Windows\SysWow64\nvcuda.dll, 8.17.0013.3182 (English), 11/14/2013 14:56:34, 9691888 bytes
-   Driver: C:\Windows\SysWow64\nvcuvenc.dll, 8.17.0013.3182 (English), 11/14/2013 14:56:34, 2747680 bytes
-   Driver: C:\Windows\SysWow64\nvcuvid.dll, 8.17.0013.3182 (English), 11/14/2013 14:56:35, 2947872 bytes
-   Driver: C:\Windows\SysWow64\nvd3dum.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:36, 15218504 bytes
-   Driver: C:\Windows\SysWow64\nvinit.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:38, 141336 bytes
-   Driver: C:\Windows\SysWow64\nvoglshim32.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:40, 266984 bytes
-   Driver: C:\Windows\SysWow64\nvoglv32.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:41, 22951200 bytes
-   Driver: C:\Windows\SysWow64\nvopencl.dll, 8.17.0013.3182 (English), 11/14/2013 14:56:44, 9619872 bytes
-   Driver: C:\Windows\SysWow64\nvumdshim.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:45, 1242400 bytes
-   Driver: C:\Windows\SysWow64\nvwgf2um.dll, 9.18.0013.3182 (English), 11/14/2013 14:56:46, 15862272 bytes
-   Driver: C:\Windows\system32\nvdispco6433182.dll, 2.00.0037.0004 (English), 11/14/2013 14:56:37, 1884448 bytes
-   Driver: C:\Windows\system32\nvdispgenco6433182.dll, 2.00.0017.0002 (English), 11/14/2013 14:56:38, 1511712 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\MCU.exe, 1.01.5204.20580 (English), 5/20/2014 05:44:03, 843720 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvdebugdump.exe, 6.14.0013.3788 (English), 5/20/2014 05:44:03, 224032 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.1.pdf, 5/20/2014 05:44:03, 50585 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe, 8.17.0013.3788 (English), 5/20/2014 05:44:03, 329672 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll, 8.17.0013.3788 (English), 5/20/2014 05:44:03, 543520 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL.dll, 1.00.0000.0000 (English), 5/20/2014 05:44:03, 52056 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL64.dll, 1.00.0000.0000 (English), 5/20/2014 05:44:03, 61216 bytes
+   Driver: C:\Windows\system32\DRIVERS\nvlddmkm.sys, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 12688328 bytes
+   Driver: C:\Windows\system32\NvFBC64.dll, 6.14.0013.3788 (English), 5/20/2014 05:44:03, 892704 bytes
+   Driver: C:\Windows\system32\NvIFR64.dll, 6.14.0013.3788 (English), 5/20/2014 05:44:03, 895776 bytes
+   Driver: C:\Windows\system32\NvIFROpenGL.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 382240 bytes
+   Driver: C:\Windows\system32\nvEncodeAPI64.dll, 6.14.0013.3788 (English), 5/20/2014 05:44:03, 492376 bytes
+   Driver: C:\Windows\system32\nvapi64.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 3109248 bytes
+   Driver: C:\Windows\system32\nvcompiler.dll, 8.17.0013.3788 (English), 5/20/2014 05:44:03, 25256224 bytes
+   Driver: C:\Windows\system32\nvcuda.dll, 8.17.0013.3788 (English), 5/20/2014 05:44:03, 11644928 bytes
+   Driver: C:\Windows\system32\nvcuvenc.dll, 8.17.0013.3788 (English), 5/20/2014 05:44:03, 2785568 bytes
+   Driver: C:\Windows\system32\nvcuvid.dll, 8.17.0013.3788 (English), 5/20/2014 05:44:03, 3141976 bytes
+   Driver: C:\Windows\system32\nvd3dumx.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 17480432 bytes
+   Driver: C:\Windows\system32\nvinfo.pb, 5/20/2014 05:44:03, 26069 bytes
+   Driver: C:\Windows\system32\nvinitx.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 166568 bytes
+   Driver: C:\Windows\system32\nvoglshim64.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 354016 bytes
+   Driver: C:\Windows\system32\nvoglv64.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 31387936 bytes
+   Driver: C:\Windows\system32\nvopencl.dll, 8.17.0013.3788 (English), 5/20/2014 05:44:03, 11599072 bytes
+   Driver: C:\Windows\system32\nvumdshimx.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 952952 bytes
+   Driver: C:\Windows\system32\nvwgf2umx.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 18531568 bytes
+   Driver: C:\Windows\SysWow64\NvFBC.dll, 6.14.0013.3788 (English), 5/20/2014 05:44:03, 861128 bytes
+   Driver: C:\Windows\SysWow64\NvIFR.dll, 6.14.0013.3788 (English), 5/20/2014 05:44:03, 867784 bytes
+   Driver: C:\Windows\SysWow64\NvIFROpenGL.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 335704 bytes
+   Driver: C:\Windows\SysWow64\nvEncodeAPI.dll, 6.14.0013.3788 (English), 5/20/2014 05:44:03, 416712 bytes
+   Driver: C:\Windows\SysWow64\nvapi.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 2730208 bytes
+   Driver: C:\Windows\SysWow64\nvcompiler.dll, 8.17.0013.3788 (English), 5/20/2014 05:44:03, 17561544 bytes
+   Driver: C:\Windows\SysWow64\nvcuda.dll, 8.17.0013.3788 (English), 5/20/2014 05:44:03, 9735256 bytes
+   Driver: C:\Windows\SysWow64\nvcuvenc.dll, 8.17.0013.3788 (English), 5/20/2014 05:44:03, 2412376 bytes
+   Driver: C:\Windows\SysWow64\nvcuvid.dll, 8.17.0013.3788 (English), 5/20/2014 05:44:03, 2953672 bytes
+   Driver: C:\Windows\SysWow64\nvd3dum.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 14434704 bytes
+   Driver: C:\Windows\SysWow64\nvinit.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 146480 bytes
+   Driver: C:\Windows\SysWow64\nvoglshim32.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 305600 bytes
+   Driver: C:\Windows\SysWow64\nvoglv32.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 24025376 bytes
+   Driver: C:\Windows\SysWow64\nvopencl.dll, 8.17.0013.3788 (English), 5/20/2014 05:44:03, 9697640 bytes
+   Driver: C:\Windows\SysWow64\nvumdshim.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 837056 bytes
+   Driver: C:\Windows\SysWow64\nvwgf2um.dll, 9.18.0013.3788 (English), 5/20/2014 05:44:03, 16003912 bytes
+   Driver: C:\Windows\system32\nvdispco6433788.dll, 2.00.0040.0004 (English), 5/20/2014 05:44:03, 1889112 bytes
+   Driver: C:\Windows\system32\nvdispgenco6433788.dll, 2.00.0019.0002 (English), 5/20/2014 05:44:03, 1541576 bytes
 
      Name: Intel(R) H87 LPC Controller - 8C4A
 Device ID: PCI\VEN_8086&DEV_8C4A&SUBSYS_8C4A1849&REV_04\3&11583659&0&F8
@@ -512,7 +538,7 @@ CCITT u-Law,0x00200000,1,1,quartz.dll,6.06.7600.16905
 MPEG Layer-3,0x00200000,1,1,quartz.dll,6.06.7600.16905
 
 Audio Capture Sources:
-FrontMic (Realtek High Definiti,0x00200000,0,0,qcap.dll,6.06.7600.16385
+Microphone (Realtek High Defini,0x00200000,0,0,qcap.dll,6.06.7600.16385
 
 PBDA CP Filters:
 PBDA DTFilter,0x00600000,1,1,CPFilters.dll,6.06.7600.16724
@@ -524,7 +550,6 @@ Default MidiOut Device,0x00800000,1,0,quartz.dll,6.06.7600.16905
 Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,6.06.7600.16905
 
 WDM Streaming Capture Devices:
-Realtek HD Audio Front Mic input,0x00200000,1,1,ksproxy.ax,6.01.7600.16385
 Realtek HD Audio Line input,0x00200000,1,1,ksproxy.ax,6.01.7600.16385
 Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,6.01.7600.16385
 Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,6.01.7600.16385
@@ -560,7 +585,9 @@ Audio Renderers:
 Speakers (Realtek High Definiti,0x00200000,1,0,quartz.dll,6.06.7600.16905
 Default DirectSound Device,0x00800000,1,0,quartz.dll,6.06.7600.16905
 Default WaveOut Device,0x00200000,1,0,quartz.dll,6.06.7600.16905
+DirectSound: Realtek Digital Output (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7600.16905
 DirectSound: Speakers (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7600.16905
+Realtek Digital Output (Realtek,0x00200000,1,0,quartz.dll,6.06.7600.16905
 
 ---------------
 EVR Power Information
